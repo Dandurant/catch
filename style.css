@@ -1,0 +1,247 @@
+h1{
+
+    text-align: center; 
+    
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+ul{
+
+    margin: 0 auto; /* Internal margin*/
+    list-style: none; /* Removes little dots on the left of the structure */
+    width: auto; /* List size */
+    padding-left: 300px; /* Used to centralize the structure*/
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    padding: 0;  /* Exerternal margin, low interaction with page's enviroment*/
+    list-style: none;
+
+
+}
+
+ul li{
+    
+    display: block;
+    float:left; /* Used to define where it will be shown on the page */
+    
+     
+}
+
+li a{
+
+    display: block; /* Style of how it will be shown */
+    padding: 0 2em;
+    line-height: 50px;
+    text-decoration: none; /* To avoid conflit between atributes*/
+    color: black;
+
+}
+
+
+ul a:hover{ /* When you pass the mouse onte the button*/
+
+    background-color: #ffb6c1;
+    color:white;
+    border: solid 1px white;
+
+}
+
+#atual{ /* To indicate on wich page the user will be */ 
+
+    background-color: #ffb6c1;
+
+}
+
+#produto{ /* Used to format the products on horizontal */
+
+    display:block;
+    position: relative;
+    top: 30px;
+    width: auto;
+    float: left;
+    padding-left: 190px;
+    padding-bottom: 50px;
+
+}
+
+#place{ /* Formats the images */
+
+
+    width: 300px;
+    padding-left: 50px;
+
+}
+
+#texto{ /* General text */ 
+
+    text-align: justify;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 30px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#texto2{ /* Specific text */
+
+    text-align: justify;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 30px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#left{ /* Used to format the image */
+
+    display: flex;
+    float: left;
+    position: relative;
+    left: 190px;
+    
+}
+
+footer{ 
+
+    clear: both; /* Used to clear other objects interferences */
+    position: sticky; /* Used to glue the footer onto an object */
+    padding-right: 100px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#empresa{
+
+    float: left;
+    position: relative;
+    width: 185px;
+    padding: 100px;
+
+}
+
+#direita{
+
+    position: relative;
+    clear: both;
+    float: right;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: solid 2.5px #ffb6c1;
+    padding-bottom: 50px;
+    background-color: #fed4da;
+    max-width: 80%; /* Limits it's width on other screens */
+    width: 70%;
+    margin: 0 auto;
+    
+}
+
+#quemsomosimg{
+
+    width: 123px;
+    position: relative;
+    top: 10px;
+    margin: auto;
+    padding-left: 650px;
+    clear: both;
+
+}
+
+#trabalheimg {
+
+    width: 200px;
+    margin: 0 auto;
+    display: relative; /* Enable the structure to move on the screen */
+    padding-left: 1000px; 
+    clear: both;
+    padding-bottom: 60px;
+}
+
+#pikachu{
+
+    width: 180px;
+    position: relative;
+
+}
+
+#trabalheimg2 {
+
+    width: 200px;
+    padding-right: 1100px;
+    clear: both;
+    bottom:245px;
+    left: 100px;
+    position: relative;
+}
+
+#Pokecatch{
+
+    width: 600px;
+    padding-left: 460px;
+    
+}
+    
+body{
+
+    background-color: rgba(155,213,239,255);
+
+}
+
+
+
+a:hover#link{ /* When you pass the mouse onto the button*/
+
+    background-color: #ffb6c1;
+    color: white;
+    border: solid 1px white;
+    
+}
+
+a#link { /* Clickable link */
+
+    text-decoration: none;
+    color: black;
+
+}
+
+a:visited#link{ /* Already visited link */
+
+    text-decoration: none;
+
+}
+
+#linha {
+
+    border-top:  4px solid  #ffb6c1;
+    padding-top: 10px;
+
+}
+
+#container{
+
+    background-color: #fed4da;
+    border: solid 2.5px #ffb6c1;
+    padding: 10px;
+    margin:10px auto;
+
+}
+
+.gabumon{
+
+    position:relative;
+    bottom: -120px;
+
+}
+
+.eddga{
+
+    position: relative;
+    top: 65px;
+    left: -50px;
+
+}
+
+
